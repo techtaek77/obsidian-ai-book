@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>쌓아둔 메모를 다시 꺼내 쓰는 법</title>
+<meta name="description" content="메모와 AI 대화는 쌓이는데 다시 꺼내 쓴 적은 별로 없는 사람을 위한 무료 전자책. 옵시디언+AI로 모으기 전에 목적을 적고, 이유 있는 연결을 만들고, 실제 결과물에 다시 쓰는 법.">
+<meta property="og:title" content="쌓아둔 메모를 다시 꺼내 쓰는 법">
+<meta property="og:description" content="옵시디언+AI, 모으기 전에 정할 것">
+<meta property="og:image" content="assets/cover.png">
+<style>
+:root { --ink:#202b30; --muted:#637174; --brand:#14665e; --accent:#f7931a; --paper:#faf8f3; --line:#d9d2c3; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Nanum Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif; line-height:1.7; word-break:keep-all; }
+main { max-width:880px; margin:0 auto; padding:32px 16px 64px; }
+.hero { display:grid; grid-template-columns:minmax(0,260px) 1fr; gap:32px; align-items:center; }
+.hero img { width:100%; border-radius:6px; box-shadow:0 8px 24px rgba(0,0,0,.15); }
+.kicker { color:var(--brand); font-weight:800; font-size:14px; }
+h1 { font-size:34px; line-height:1.25; margin:6px 0 10px; }
+.sub { color:var(--muted); margin:0 0 18px; }
+.btns { display:flex; flex-wrap:wrap; gap:10px; }
+.btn { display:inline-block; padding:11px 18px; border-radius:6px; text-decoration:none; font-weight:800; border:2px solid var(--brand); color:var(--brand); }
+.btn.primary { background:var(--brand); color:#fff; }
+.size { font-weight:400; font-size:12px; opacity:.8; }
+section { margin-top:44px; }
+h2 { font-size:20px; border-bottom:2px solid var(--brand); padding-bottom:6px; }
+ul.promise { padding-left:20px; }
+ul.toc { list-style:none; padding:0; }
+ul.toc li.part { font-weight:800; color:var(--brand); margin-top:12px; }
+ul.toc li.chapter { padding-left:18px; }
+ul.toc li.plain { font-weight:700; margin-top:12px; }
+.note { font-size:13px; color:var(--muted); border-left:3px solid var(--accent); padding:8px 12px; background:#fff; }
+footer { margin-top:48px; font-size:13px; color:var(--muted); }
+a { color:var(--brand); }
+@media (max-width:640px) { .hero { grid-template-columns:1fr; } .hero img { max-width:240px; } h1 { font-size:28px; } }
+</style>
+</head>
+<body>
+<main>
+<div class="hero">
+  <img src="assets/cover.png" alt="쌓아둔 메모를 다시 꺼내 쓰는 법 표지">
+  <div>
+    <div class="kicker">택택의 지식관리 노트 · 무료</div>
+    <h1>쌓아둔 메모를 다시 꺼내 쓰는 법</h1>
+    <p class="sub">옵시디언+AI, 모으기 전에 정할 것</p>
+    <div class="btns">
+      <a class="btn primary" href="read/">웹에서 바로 읽기</a>
+      <a class="btn" href="https://github.com/techtaek77/obsidian-ai-book/releases/latest/download/obsidian-ai-book.pdf">PDF 받기 <span class="size">3MB · A5</span></a>
+      <a class="btn" href="https://github.com/techtaek77/obsidian-ai-book/releases/latest/download/obsidian-ai-book.epub">EPUB 받기 <span class="size">1MB</span></a>
+    </div>
+  </div>
+</div>
+
+<section>
+<h2>이 책은</h2>
+<p>옵시디언 볼트에 AI 에이전트·스킬·명령을 200개 넘게 붙였다가 다시 줄인 직장인 택택이, <strong>모으는 법이 아니라 다시 꺼내 쓰는 법</strong>을 정리한 책입니다.
+저자 볼트의 실제 기록(보인 노트 29건, 쓴 노트 14건, 겹침 0)을 근거로, 원본은 두고 판단만 모으고 결과물에 들어갔는지로 확인하는 방법을 다룹니다.</p>
+<ul class="promise">
+<li>새 자료를 저장할 때 ‘왜 모으나’를 한 줄로 적고 출처 링크를 붙인다</li>
+<li>그 자료를 기존 노트 두 개와 이유를 적어 연결하고, 짐작한 연결과 확인한 연결을 나눈다</li>
+<li>그 연결로 업무 메모나 글 개요 하나를 실제로 만들고, 어디에 무엇을 다시 썼는지 적는다</li>
+</ul>
+</section>
+
+<section>
+<h2>차례</h2>
+<ul class="toc">
+<li class="plain">들어가며</li>
+<li class="part">1부 · 왜 다시 안 꺼내게 될까</li>
+<li class="chapter">01 · 자동으로 모았더니 안 보게 됐다</li>
+<li class="chapter">02 · 지켜보려고 늘렸더니 이어지지 않았다</li>
+<li class="chapter">03 · 보인 것과 쓴 것은 다르다</li>
+<li class="part">2부 · 다시 쓰는 구조</li>
+<li class="chapter">04 · 원본은 두고, 판단만 모은다</li>
+<li class="chapter">05 · 연결에는 이유가 있어야 한다</li>
+<li class="chapter">06 · 넣고, 꺼내고, 고친다</li>
+<li class="part">3부 · 내 것으로 만들기</li>
+<li class="chapter">07 · 결과물 하나에 써먹는다</li>
+<li class="chapter">08 · 내 말로 다시 만들어 공개한다</li>
+<li class="chapter">09 · 줄이는 것도 운영이다</li>
+<li class="plain">나가며 — 다음 7일</li>
+<li class="plain">부록 A. 활동지 세 장과 작성 예시</li>
+<li class="plain">부록 B. 용어집과 자주 묻는 질문</li>
+<li class="plain">부록 C. 이 책의 숫자를 센 방법</li>
+<li class="plain">출처</li>
+</ul>
+</section>
+
+<section>
+<p class="note">본문의 숫자는 저자 볼트 한 곳의 기록이며 효과를 증명하는 통계가 아닙니다. 센 방법은 부록 C에 있습니다.
+특정 앱·AI 서비스·증권사를 권하는 책이 아니며, 7장의 증권사 비교는 재사용 기록을 설명하는 예시일 뿐 투자 권유가 아닙니다.
+캐릭터 벨로키 그림은 AI 이미지 생성 도구로 만들었고, 도해는 AI와 함께 SVG로 그렸습니다.</p>
+</section>
+
+<footer>
+<p>지은이 택택 · <a href="https://techtaek.com/">TECHTAEK 블로그</a><br>
+v0.1 · 라이선스 <a href="LICENSE.md">CC BY-NC-ND 4.0</a> (출처 표시·비영리·변경 금지로 자유롭게 나눌 수 있습니다)</p>
+</footer>
+</main>
+</body>
+</html>
